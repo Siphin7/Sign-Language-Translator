@@ -12,4 +12,4 @@ Permission to use this project must be obtained directly from the author.
 
 Unauthorized use, reproduction, or distribution of this project is strictly prohibited.
 
-For permission requests, please contact the author(Siphin).
+For permission requests, please contact the author (Siphin).

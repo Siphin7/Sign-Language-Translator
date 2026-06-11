@@ -1,0 +1,48 @@
+# ============================================================
+#  Sign Language Translator – Python Dependencies
+# ============================================================
+
+# Core Vision & ML
+opencv-python>=4.8.0          # Webcam capture & image processing
+mediapipe>=0.10.0             # Hand landmark detection (21 points)
+numpy>=1.24.0                 # Numerical computing
+scikit-learn>=1.3.0           # ML classifiers (RandomForest, MLP)
+pandas>=2.0.0                 # Dataset management
+
+# GUI & Display
+Pillow>=10.0.0                # Image handling for Tkinter frames
+# tkinter is built into Python – no install needed
+
+# Text-to-Speech
+pyttsx3>=2.90                 # Offline TTS (works on all OS)
+gTTS>=2.4.0                   # Google TTS (online, better quality)
+pygame>=2.5.0                 # Audio playback for gTTS
+
+# Speech-to-Text
+SpeechRecognition>=3.10.0     # Speech recognition wrapper
+# PyAudio – see install note below
+
+# Visualization & Training
+matplotlib>=3.7.0             # Confusion matrix, accuracy plots
+seaborn>=0.12.0               # Heatmaps for confusion matrix
+
+# Utilities
+tqdm>=4.65.0                  # Progress bars during training
+
+# ============================================================
+#  PYAUDIO INSTALLATION (needed for microphone / STT)
+# ============================================================
+#  Windows:
+#    pip install pipwin
+#    pipwin install pyaudio
+#         OR download the .whl from:
+#    https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+#
+#  Linux (Ubuntu/Debian):
+#    sudo apt-get install python3-pyaudio portaudio19-dev
+#    pip install pyaudio
+#
+#  macOS:
+#    brew install portaudio
+#    pip install pyaudio
+# ============================================================

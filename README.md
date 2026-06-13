@@ -65,12 +65,12 @@ sign_language_translator/
 │   └── 📄 stt_engine.py
 │
 ├── 📁 dataset/
-│   └── 📄 gesture_data.csv   ← Copy the provided CSV file here
+│   └── 📄 gesture_data.csv   ← Copy the provided CSV file here(DM ME FOR THE FILE)
 │
 └── 📁 models/                ← Leave this empty (auto-filled after training)
 ```
 
-> ✅ **Tip:** The `gesture_data.csv` file is already provided to you.  
+> ✅ **Tip:** The `gesture_data.csv` file is NOT provided to you, to get that file dm me.  
 > Just copy it into the `dataset/` folder. No need to collect data yourself!
 
 ---
